@@ -1,0 +1,75 @@
+.navigation{
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(200, 181, 181, 0.122);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: deeppink;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:20px;
+    padding:10px;
+    white-space: nowrap;
+}
+.navigationLinks{
+    /*will be done later */
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:20px
+}
+.navItem{
+    list-style-type: none;
+    padding-left: 20px;
+    float: right;
+}
+.navItem a{
+    text-decoration:none;
+    color: deeppink;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.srchInput{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: 2px solid deeppink;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.srchInput:focus{
+    /* background-color: red; */
+}
+.srchBtn{
+    height: 30px;
+    outline: none;
+    border: none;
+    border:2px solid deeppink;
+    border-left: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: deeppink;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+.srchBtn span{
+    padding:10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
