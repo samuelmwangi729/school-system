@@ -1,35 +1,61 @@
 .hero{
-    height: 75vh;
+    height: 60vh;
     background-size: cover;
     background-position:top ;
     background-attachment: scroll;
     background-repeat: no-repeat;
     width: 100%;
-    background-image:url('../assets/banner.jpg'), linear-gradient( 45deg,rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.952));
+    background-image:url('../assets/banner.jpg'), linear-gradient( 45deg,rgba(0, 0, 0, 0.813),rgba(21, 19, 19, 0.6));
     background-blend-mode: overlay;
 }
 .container{
     width: 100%;
+    height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .cta{
-    width: 50%;
+    width: 80%;
 }
 .cta h1{
     color: deeppink;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    white-space: nowrap;
-    text-align: center;
-    margin-top: 25vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.cta span{
-    color: deeppink;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+.heroSpan{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: normal;
     white-space: nowrap;
-    text-align: center;
-    margin-top: 25vh;
+    margin-bottom: 20px;
+}
+.ctaButtons{
+    padding: 20px;
+}
+.ctaButtons button{
+    padding: 10px;
+    background-color: deeppink;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.ctaButtons1{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+button.ctaButtons1:hover{
+    background-color: deeppink !important;
+    border: none !important;
+    cursor: pointer;
+    transition: ease-in .5s;
+}
+button.ctaButtons2:hover{
+    background-color: transparent !important;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: ease-in .5s;
 }
