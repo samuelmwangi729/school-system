@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navigation } from './Components'
+import { Navigation, Hero } from './Components'
 class App extends Component {
 
   constructor(props) {
@@ -14,6 +14,7 @@ class App extends Component {
       <>
       <header>
         <Navigation/>
+        <Hero/>
       </header>
       </>
     )

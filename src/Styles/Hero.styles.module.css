@@ -1,0 +1,35 @@
+.hero{
+    height: 75vh;
+    background-size: cover;
+    background-position:top ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image:url('../assets/banner.jpg'), linear-gradient( 45deg,rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.952));
+    background-blend-mode: overlay;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta{
+    width: 50%;
+}
+.cta h1{
+    color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 25vh;
+}
+.cta span{
+    color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 25vh;
+}
